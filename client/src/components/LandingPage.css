@@ -1,0 +1,33 @@
+.landing{
+    min-height: 100vh;
+    background: url("https://p4.wallpaperbetter.com/wallpaper/933/827/743/pokemon-pixel-art-wallpaper-preview.jpg") no-repeat center center fixed;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pikachu{
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 1200px;
+}
+
+.pokeTit{
+    width: 40vw;
+   
+}
+
+ .pokeball{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+} 

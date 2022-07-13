@@ -1,0 +1,20 @@
+.input {
+    box-shadow: none; 
+    border-radius: 5%;
+    width: 220px;
+    height: 43px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    background-color:#F0EBE3;
+    border: 1px solid black;
+
+}
+
+.boton
+{
+    cursor: pointer;
+    border: none;
+    background: none
+    
+}
+

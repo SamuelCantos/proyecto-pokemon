@@ -1,0 +1,83 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.nav-left img{
+    width: 60px;
+    height: 60px;
+}
+.nav-left p {
+    margin-left: 5px;
+  }
+
+  .nav-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+
+  }
+
+  .nav-right{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .recargar{
+    border: none;
+      font-family: 'Press Start 2P', cursive;
+      border-radius: 15%;
+      width: 10vw;
+      height: 8vh;
+      overflow: hidden;
+    cursor: pointer;
+  }
+
+  .recargar:hover{
+    background-color: brown;
+    transition: 1s ease;
+  }
+
+  .nav-right button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    margin: 3rem;
+    transition: all 1s;
+  }
+
+  .nav-right button:hover{
+    color: rgba(255, 0, 0, 0.793);
+    
+  }
+
+  .right-agregar{
+    width: 10vw;
+    height: 8vh;
+    cursor: pointer;
+    transition: all 1s;
+    
+  }
+
+  .nav-right-a{
+    transition: all 1s;
+  }
+
+  .nav-right-a:hover{
+    color: red;
+  }
