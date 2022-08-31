@@ -1,1 +1,0 @@
-web: proyecto-pokemon app:app
